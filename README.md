@@ -1,9 +1,14 @@
 # Layoffs Data Analysis
 
-This project analyzes global layoffs data using MySQL.
-The goal is to clean the dataset and explore trends in layoffs across companies, countries, and time.
+This project analyzes global layoffs data using MySQL, focusing on data cleaning and exploratory data analysis to uncover trends across companies, countries, and time.
 
-## Data Cleaning using MySQL
+## Objectives
+
+- Identify layoff trends over time
+- Analyze which companies and countries are most effected
+- Explore layoff patterns across different company stages
+
+## Data Cleaning
 
 - Removed duplicate records using ROW_NUMBER
 - Standardized text data (company, country, industry)
@@ -12,18 +17,22 @@ The goal is to clean the dataset and explore trends in layoffs across companies,
 
 ## Exploratory Data Analysis
 
-- Layoffs by company
-- Layoffs by country
+- Total layoffs by company and country
 - Yearly and monthly trends
-- Top companies with highest layoffs
+- Top companies with highest layoffs per year
 - Rolling total of layoffs over time
+- Analysis by company stages
 
-## Insights
+## Key Insights
 
-- Some companies had 100% layoffs, which means they were possible to shut down
-- Layoffs are concentrated in certain countries (e.g., United States)
-- Layoffs increased during specific years
-- Companies with higher funding tend to have larger layoffs
+- Layoffs peaked significantly in 2022, which means economic was affeced during the pandemic.
+- The United Stages experienced the highest number of layoffs.
+- Many companies had 100% layoffs, indicating possible shutdowns.
+- The tech industry and well-funded companies were affected.
+
+## Tools Used
+
+MySQL (Data Cleaning & Analysis)
 
 ## Files
 
